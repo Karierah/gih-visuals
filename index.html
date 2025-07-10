@@ -1,16 +1,133 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Your Design Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="description"
+    content="Portfolio of gih visuals, karierah, Graphic Designer specializing in social media visuals for fashion, food, corporate, and events." />
+  <meta name="keywords" content="graphic design, portfolio, social media design, fashion, food, corporate, events" />
+  <meta name="author" content="gih visuals" />
+
 </head>
 
 <body>
-  Hello world
+
+  <!-- Hero Section -->
+  <header class="hero" id="hero">
+    <div class="hero-content" id="hero-content">
+      <h1><span>Gih Visuals</span></h1>
+      <p>Crafting modern, niche-focused design.</p>
+      <a href="#work" class="btn">Explore Work</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      Hi, I'm Karierah, the eye behind Gih Visuals — where design speaks before words do. I craft visuals that feel
+      intentional, modern, and a little unexpected. Less noise, more meaning.
+    </p>
+  </section>
+
+
+  <!-- Work / Filtering Section -->
+  <section id="work" class="work">
+    <h2>Portfolio Highlights</h2>
+    <div class="filters">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="events and experiences">events and experiences</button>
+      <button class="filter-btn" data-filter="Corporate & Media">Corporate & Media</button>
+      <button class="filter-btn" data-filter="Educational">Educational</button>
+      <button class="filter-btn" data-filter="Faith-Based">Faith-Based</button>
+      <button class="filter-btn" data-filter="Fliers">Fliers</button>
+    </div>
+    <div class="gallery">
+      <!-- Example card -->
+      <div class="card" data-category="events and experiences">
+        <img src="images/accesstalksep25.png" alt="" loading="lazy" />
+      </div>
+
+      <div class="card" data-category="Corporate & Media">
+        <img src="images/MODEL SEARCH.png" alt="Corporate & Media" loading="lazy" />
+      </div>
+      <div class="card" data-category="Corporate & Media">
+        <img src="images/GOLD IN HER SKIN.png" alt="Corporate & Media" loading="lazy" />
+      </div>
+      <div class="card" data-category="Faith-Based">
+        <img src="images/EASTER WEEKEND.png" alt="Faith-Based" loading="lazy" />
+      </div>
+      <div class="card" data-category="events and experiences">
+        <img src="images/MOVE SHAKE REPEAT.png" alt="events and experiences" loading="lazy" />
+      </div>
+      <div class="card" data-category="events and experiences">
+        <img src="images/access x-space 2pia.png" alt="events and experiences" loading="lazy" />
+      </div>
+      <div class="card" data-category="Faith-Based">
+        <img src="images/SATURDAY PRAYERS.png" alt="Faith-Based" loading="lazy" />
+      </div>
+      <div class="card" data-category="Educational">
+        <img src="images/DIGITAL LITERACY.png" alt="Educational" loading="lazy" />
+      </div>
+      <div class="card" data-category="events and experiences">
+        <img src="images/NEW VOICE OF THE PEOPLE.png" alt="events and experiences" loading="lazy" />
+      </div>
+      <div class="card" data-category="Faith-Based">
+        <img src="images/SUNDAY SCRIPTURE 2.png" alt="Faith-Based" loading="lazy" />
+      </div>
+      <div class="card" data-category="Educational">
+        <img src="images/WEB DESIGN COURSE.png" alt="Educational" loading="lazy" />
+      </div>
+      <div class="card" data-category="events and experiences">
+        <img src="images/MUNICH FLEX 2.png" alt="events and experiences" loading="lazy" />
+      </div>
+      <div class="card" data-category="Faith-Based">
+        <img src="images/worship experience.png" alt="Faith-Based" loading="lazy" />
+      </div>
+      <div class="card" data-category="Fliers">
+        <img src="images/sallys booth.png" alt="Fliers" loading="lazy" />
+      </div>
+      <div class="card" data-category="Fliers">
+        <img src="images/INK AND GLAM.png" alt="Fliers" loading="lazy" />
+      </div>
+      <div class="card" data-category="Fliers">
+        <img src="images/GAME NIGHT jpg.jpg" alt="Fliers" loading="lazy" />
+      </div>
+      <div class="card" data-category="Fliers">
+        <img src="images/MICHYYS NAIL OASIS.png" alt="Fliers" loading="lazy" />
+      </div>
+      <div class="card" data-category="Fliers">
+        <img src="images/wendys pool party.png" alt="Fliers" loading="lazy" />
+      </div>
+      <div class="card" data-category="Fliers">
+        <img src="images/YOUTH VISION 2025.png" alt="Fliers" loading="lazy" />
+      </div>
+      <!-- Repeat cards with data-category="..." -->
+    </div>
+  </section>
+
+  <!-- Lightbox Modal -->
+  <div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-img" src="" alt="Preview" />
+  </div>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Get In Touch</h2>
+    <p>If you’re interested in working together or have a question, feel free to reach out via email or WhatsApp.</p>
+    <div class="contact-buttons">
+      <a href="mailto:karierah.g@gmail.com" class="btn">Email Me</a>
+      <a href="https://wa.me/254115514401" target="_blank" class="btn whatsapp">WhatsApp Me</a>
+    </div>
+  </section>
+
+
   <script src="script.js"></script>
+
 </body>
 
 </html>
